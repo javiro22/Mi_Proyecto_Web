@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+
+    <style>
+
+    @import url('https://fonts.googleapis.com/css2? familia= Playfair+Pantalla &family= Roboto & family= Ubuntu:wght@500 & display=swap');
+
+        h2{
+            font-family:'Ubuntu', sans-serif;
+            color: #2ed573;
+            font-size: 1.5rem;
+            display: flex;
+            margin-left: 20px;
+
+        }
+
+        label{
+            font-family:'Playfair Display', serif;
+            color: #2ed573;
+            font-size: large;
+            font-weight: 600;
+            
+        }
+
+        body{
+            background-image: url(./imagenes/fondo_header.jpg);
+            background: ;
+            
+        }
+
+        .cabecera{
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        a{
+            color: white;
+        }
+
+        .boton-envio{
+            display: flex;
+            justify-content: center;
+        }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="cabecera">
+
+    <h2>CONTACTA CON NOSOTROS</h2>
+
+    <a href="./index.html">Volver a la página pricipal</a>
+
+    </div>
+
+
+    <form action="">
+
+        <div class="datos">
+        
+        <fieldset>
+
+            <legend>DATOS PRINCIPALES</legend>
+
+            <label for="nombre1">Nombre</label><br>
+            <input type="text" id="nombre1" name="nombre1" placeholder="Escribe aquí tu nombre" size="50"><br>
+             
+            <p></p>
+
+            <label class="text-label" for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Escribe aquí tus apellidos" size="70"><br>
+
+            <p></p>
+
+            <label for="direccion">Domicilio donde resides</label><br>
+            <input type="text" id="direccion" name="direccion" placeholder="Escribe aquí tu dirección completa" size="80"><br>
+             
+            <p></p>
+
+            <label for="email">Correo electrónico</label><br>
+            <input type="email" id="nombre1" name="nombre1" placeholder="Escribe aqui tu correo" size="40"><br>
+            
+            <p></p>
+
+            <label for="telefono">Teléfono de contacto</label><br>
+            <input type="text" id="telefono" name="telefono" placeholder="Escribe tu número" size="12"><br>
+            
+            <p></p>
+
+
+        </fieldset>
+
+
+        <br><br>
+
+        <div class="contacto">
+
+        <fieldset>
+
+            <legend>¿ CÓMO NOS HAS CONOCIDO ?</legend>
+
+            <br><label for="info">Por favor indicanos la forma en la que has sabido de nosotros</label><br><br>
+
+            <input type="radio" name="option" id="option">Tienda física<br>
+            
+            <input type="radio" name="option" id="option">Correo electrónico<br>
+            
+            <input type="radio" name="option" id="option">Facebook<br>
+
+            <input type="radio" name="option" id="option" checked>Otras formas<br>
+
+            <br><br>
+
+            <input type="checkbox" name="publi" id="publi">
+            <label for="publi">Si deseas recibir nuestro catálogo de productos de Navidad marca la casilla y te lo enviaremos al correo.</label><br>
+        
+            </fieldset>
+
+            </div>
+
+            <br><br>
+
+        <div class="comentario">
+
+            <fieldset>
+
+                <legend>COMENTARIOS</legend>
+
+                <label for="comentarios">Y si deseas comentarnos algo puedes hacerlo aquí :</label><br>
+                
+                <textarea name="comentarios" id="comentarios" cols="45" rows="10"></textarea><br>
+
+            <p></p>
+
+
+            </fieldset>
+
+        </div>
+
+            <br>
+
+        <div class="boton-envio">
+
+            <input type="submit" name="envio" id="envio">
+        
+        </div>
+</body>
+</html>
