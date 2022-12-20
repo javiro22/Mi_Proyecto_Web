@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
 
+
+
     <style>
 
     @import url('https://fonts.googleapis.com/css2? familia= Playfair+Pantalla &family= Roboto & family= Ubuntu:wght@500 & display=swap');
@@ -40,13 +42,31 @@
             
         }
 
-        body{
+         body{
             background-image: url(./imagenes/fondo_header.jpg);
             background-size: cover;
             
+        } 
+
+        
+        .nav a{
+
+            margin-top: 40px;
+            margin-right: 100px;
+            margin-left: 300px;
+            color: white;
+            font-size:30px ;
+            
+        }
+
+        .logo{
+            margin-left: 1000px;
+
+
         }
 
         .cabecera{
+            margin: 20px;
             display: flex;
             justify-content: space-between;
 
@@ -72,11 +92,50 @@
 
 <body>
 
+    <header>
+
+        <div class="contenido-cabecera">
+    
+            <div class="elementos-notexto">
+    
+            <div class="logo">
+    
+                <picture>
+                    
+                    <img class="logotipo" loading="lazy" src="./imagenes/logo_nuevo_header.png" alt="logo">
+    
+                </picture>
+                
+            </div>
+    
+                
+            <div class="menu">
+    
+                <nav class="nav">
+                    <a href="./papeleria.html">Papelería</a>
+                    <a href="./libros.html">Libros</a>
+                    <a href="./ofertas.html">Ofertas</a>
+                    <a href="./index.html">Página Central</a>
+
+                
+                </nav>
+    
+            </div>
+    
+        </div>
+    
+    
+        </div>
+    
+    
+            
+    
+    </header>
+
     <div class="cabecera">
 
     <h2>CONTACTA CON NOSOTROS</h2>
 
-    <a href="./index.html">Volver a la página principal</a>
 
     </div>
 

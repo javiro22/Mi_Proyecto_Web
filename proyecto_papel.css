@@ -10,10 +10,6 @@
 
     }
 
-    
-
-
-
 
 .cabecera{
     
@@ -290,7 +286,7 @@ span.oferton{
 
 
 footer{
-    height: 90px;
+    height: auto;
     width: 100%;
  
 }    
@@ -318,28 +314,33 @@ footer.contenedor{
         }
 
         .pie1,.pie2{
+            display: flex;
             padding: 2.3rem;
         }
 
         .pie a{
             color: white;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-weight: 800;
-            text-transform: uppercase;
+            text-transform: lowercase;
             text-align:center;
             
         }
 
         p.texto-pie{
+
             margin-bottom: 2rem;
             font-size: 1.3rem;
             text-transform: lowercase;
             color: white;
+
         }
 
-
         
+
+
+        /* Estos es el salto responsive a 600px */
 
         @media screen and (min-width: 600px){
 
@@ -462,12 +463,38 @@ footer.contenedor{
             align-items: baseline;
        
         }
-            
 
+        .pie{
+            margin-right: 1.2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+            height: auto;
+            
+  
+        }
+
+        .pie a{
+            color: white;
+            font-size: 1.7rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 800;
+            text-transform: uppercase;
+            text-align:center;
+            
+        }
+
+        p.texto-pie{
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            color: white;
+        }
 
         }
 
-       
+     /* Estos es el segundo salto responsive a 900px */  
 
  @media screen and (min-width: 900px){
 
