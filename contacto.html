@@ -19,6 +19,19 @@
 
         }
 
+        .legend{
+
+            color: white;
+
+        }
+
+        .input{
+
+            color: white;
+
+
+        }
+
         label{
             font-family:'Playfair Display', serif;
             color: #2ed573;
@@ -29,7 +42,7 @@
 
         body{
             background-image: url(./imagenes/fondo_header.jpg);
-            background: ;
+            background-size: cover;
             
         }
 
@@ -40,7 +53,10 @@
         }
 
         a{
+            margin-top: 10px;
             color: white;
+            text-decoration: none;
+            font-size:20px ;
         }
 
         .boton-envio{
@@ -60,7 +76,7 @@
 
     <h2>CONTACTA CON NOSOTROS</h2>
 
-    <a href="./index.html">Volver a la página pricipal</a>
+    <a href="./index.html">Volver a la página principal</a>
 
     </div>
 
@@ -71,7 +87,7 @@
         
         <fieldset>
 
-            <legend>DATOS PRINCIPALES</legend>
+            <legend class="legend">DATOS PRINCIPALES</legend>
 
             <label for="nombre1">Nombre</label><br>
             <input type="text" id="nombre1" name="nombre1" placeholder="Escribe aquí tu nombre" size="50"><br>
@@ -108,11 +124,11 @@
 
         <fieldset>
 
-            <legend>¿ CÓMO NOS HAS CONOCIDO ?</legend>
+            <legend class="legend">¿ CÓMO NOS HAS CONOCIDO ?</legend>
 
             <br><label for="info">Por favor indicanos la forma en la que has sabido de nosotros</label><br><br>
 
-            <input type="radio" name="option" id="option">Tienda física<br>
+            <input class="input" type="radio" name="option" id="option">Tienda física<br>
             
             <input type="radio" name="option" id="option">Correo electrónico<br>
             
@@ -135,7 +151,7 @@
 
             <fieldset>
 
-                <legend>COMENTARIOS</legend>
+                <legend class="legend">COMENTARIOS</legend>
 
                 <label for="comentarios">Y si deseas comentarnos algo puedes hacerlo aquí :</label><br>
                 
